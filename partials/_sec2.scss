@@ -1,0 +1,141 @@
+.sec2{
+    padding: 100px 0 0;
+    .sec2-inner{
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+        .img{
+            width: auto;
+
+            img{
+                display: block;
+                margin:10px 0;
+                width: 400px;
+                height: 500px;
+                object-fit: cover;
+                
+            }
+        }
+
+        .text{
+            width: 50%;
+            margin-left: -65px;
+            z-index: 9;
+
+            h2{
+                margin-bottom: 1rem;
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+            .text-inner{
+                position: relative;
+                margin: 55px 0 0 190px;
+                    
+                p{
+                    line-height: 30px;
+                }
+
+                
+
+                &:before{
+                    content: '';
+                    position: absolute;
+                    top: 8px;
+                    left: -30px;
+                    width: 1px;
+                    height: 100%;
+                    background: linear-gradient(to top, transparent, $white-color);
+                }
+            }
+
+        }
+
+    }
+
+
+    &.left-right-sec .sec2-inner{
+        
+        .text {
+            margin-left: 0;
+            margin-right: -65px;
+            text-align: right;
+            
+            h2{
+                text-align: right;
+            }
+        
+            .text-inner{
+                margin: 55px 190px 0 0;
+
+                p{
+                   
+                }
+        
+                &:before{
+                    left: inherit;
+                    right: -30px;
+                }
+            }
+        
+        }
+    
+    }
+}
+
+
+/*-------- MEDIA QUERIES (medium devices)-------------*/
+@media screen and(max-width:1024px){
+    .sec2 {
+
+        .sec2-inner {
+            .img img{
+                width: 350px;
+            }
+            .text{
+                margin-left: -25px;
+                .text-inner{
+                    margin: 35px 0 0 75px;
+    
+                    &:before{
+                        left: -20px;
+                    }
+                }
+            }
+
+        }
+
+        &.left-right-sec .sec2-inner .text{
+            margin-left: 0;
+            margin-right: -25px;
+    
+            .text-inner{
+                margin: 35px 75px 0 0;
+        
+                
+                &:before{
+                    left: inherit;
+                    right: -20px;
+                }
+        
+            }
+        } 
+
+
+    } 
+    
+}
+
+/*-------- MEDIA QUERIES (small devices)-------------*/
+@media screen and (max-width:680px) {
+    .sec2 .sec2-inner .text{
+        width: 75%;
+    }
+
+}
+
+

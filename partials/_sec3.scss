@@ -1,0 +1,76 @@
+.sec3{
+    padding: 150px 0 0;
+
+    h2{
+        text-transform: uppercase;
+        max-width: 60%;
+    }
+
+    .sec3-slider{
+        margin: 90px 0 0;
+        justify-items: center;
+        align-items: center;
+
+        .slick-arrow{
+            position: absolute;
+            top: -160px;  
+        }
+        .slick-prev{
+            left: inherit;
+            right: 180px;
+        }
+
+        .slick-next{
+            right: 90px;
+        }
+        .slick-prev:before,
+        .slick-next:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: $white-color url(../img/reshot-icon-bold-right-arrow-STPW6DFVRY-7b0db.svg) no-repeat;
+            background-size: 14px;
+            background-position: center;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            border: 1px solid $white-color;
+            opacity: 1;
+        }
+
+        .slick-prev:before{
+            background: transparent url(../img/white-ight-arrow.png) no-repeat;
+            background-size: 14px;
+            background-position: center;
+        }
+        
+
+        .item{
+            width: auto;
+
+            img{
+                display: block;
+                width: 350px;
+                height: 500px;
+                margin: 0 auto;
+                object-fit: cover;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 660px) {
+    .sec3 {
+        padding: 100px 10px 0;
+        h2{
+            max-width: 75%;
+        }
+        .sec3-slider .slick-arrow{
+            top:-75px;
+        }
+    }
+    
+    
+}

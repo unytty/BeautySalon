@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beautySalon</title>
+    <!--- slicer carousel--->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <!--- ROLLY CSS--->
+    <link rel="stylesheet" href="https://unpkg.com/rolly.js@0.2.1/css/style.css">
+    <!--- fonts ---->
+    <link href="https://fonts.cdnfonts.com/css/butler" rel="stylesheet">
+    <!---- Animation on scroll ---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!--- CSS --->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <!---- Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+     <!---- BOXICONS CDN------>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main class="app">
+<!---- HEADER ----->
+        <header data-aos="fade-up">
+            <nav>
+                <ul class="nav__items" id="nav__items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Beauty</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Beauty</a></li>
+                    <li><a href="#">Products</a></li>
+                </ul>
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+                <button id="open_nav-btn"><i class='bx bx-menu'></i></button>
+                <button id="close__nav-btn"><i class='bx bx-x'></i></button>
+            </nav>
+            
+        </header>
+
+<!----- BANNER ----->
+        <section class="banner" id="banner" data-scene>
+            <div class="container">
+                <div class="text" data-aos="zoom-out" data-aos-delay="1000">
+                    <h1>YD Miami is not<br> compromise for your beauty!</h1>
+                    <p>Ipsum dolor sit amet consectetur<br> adipisicing elit.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+<!---- BRAND LOGO ----->
+        <section class="brand-logo" data-scene>
+            <div class="container">
+                <div class="brand-logo-inner" data-aos="fade-up">
+                    <div class="item">
+                        <img src="./img/families.png" alt="brand logo1">
+                        <img src="./img/Vougue.png" alt="brand logo2">
+                        <img src="./img/kohls.png" alt="brand logo3">
+                        <img src="./img/littlePrincess.png" alt="brand logo4">
+                        <img src="./img/shop.png" alt="brand logo5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!---- SEC1------>
+        <section class="sec1" data-scene>
+            <div class="container">
+                <div class="sec1-inner">
+                    <div class="text text-left" data-aos="zoom-out-right">
+                        <h3>dolor sit amet consectetur adipisicing elit. Laboriosam fuga vel vero assumenda non.</h3>
+                    </div>
+                    <div class="text text-right" data-aos="zoom-out-left">
+                        <p>Sit amet consectetur adipisicing elit. Officia quidem possimus laboriosam iste cupiditate vitae illo exercitationem ipsum maiores cum, error accusantium nulla corrupti tempora? Similique est id fuga suscipit eligendi voluptate voluptas, minus recusandae nostrum. Repudiandae nostrum accusamus minus quibusdam amet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!---- SEC2 ----->
+        <section class="sec2" data-scene>
+            <div class="container">
+                <div class="sec2-inner">
+                    <div class="img" data-aos="zoom-out-up">
+                        <div class="img"><img src="./img/sec2Woman.jpeg" alt="woman"></div>
+                    </div>
+                    <div class="text" data-aos="zoom-out-left">
+                        <h2>Tempora facere parturient vero</h2>
+                        <div class="text-inner">
+                            <p>Soluta corporis sapiente beatae in voluptates accusamus nemo, at enim odit voluptatem voluptatibus pariatur, laborum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<!---- SEC2 opozite ----->
+        <section class="sec2 left-right-sec" data-scene>
+            <div class="container">
+                <div class="sec2-inner">
+                    <div class="text" data-aos="zoom-out-right">
+                        <h2>Vero tempora facere parturient</h2>
+                        <div class="text-inner">
+                            <p>Soluta corporis sapiente beatae in voluptates accusamus nemo, at enim odit voluptatem voluptatibus pariatur, laborum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, odit!</p>
+                            <a href="#" class="btn">Learn More</a>
+                        </div>    
+                    </div>
+                    <div class="img" data-aos="zoom-out-left">
+                        <div class="img"><img src="./img/smallWoman.jpeg" alt="woman"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!---- SEC3 slider image ---->
+        <section class="sec3" data-scene>
+            <div class="container">
+                <div class="sec3-inner" data-aos="zoom-out-left">
+                    <h2>Iaculis vehicula eros Nobis fugit ante</h2>
+                    <div class="sec3-slider">
+                        <div class="item">
+                            <a target="_blank" href="./img/secWoman.jpeg">
+                                <img src="./img/secWoman.jpeg" alt="slider image">
+                            </a> 
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="./img/bryony-elenanails-black.jpeg"><img src="/img/bryony-elenanails-black.jpeg" alt="slider image"></a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="./img/lashesGirl.jpeg"><img src="./img/lashesGirl.jpeg" alt="slider image"></a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="./img/chelson-tamares-nails.jpeg"><img src="./img/chelson-tamares-nails.jpeg" alt="slider img"></a>
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="./img/marcus-lewis.jpeg"><img src="./img/marcus-lewis.jpeg" alt="slider image"></a>
+                            
+                        </div>
+
+                        <div class="item">
+                            <a target="_blank" href="./img/sour-mohanails-face.jpeg"><img src="./img/sour-mohanails-face.jpeg" alt="slider img"></a>
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+<!---- SEC4 ----->
+        <section class="sec4" id="collection" data-scene>
+            <div class="container">
+                <div class="sec4-inner" data-aos="zoom-out-right">
+                    <h2>Our Collection</h2>
+                    <div class="sec4-boxes">
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+
+                        <article class="box">
+                            <h6>Asperiose</h6><!--cz/hrubý-->
+                            <div class="img">
+                                <img src="./img/jayson-hinrichsen-box1.jpeg" alt="Photo by Jayson Hinrichsen on Unsplash">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--- FOOTER ---->
+
+        <footer data-scene>
+            <div class="container">
+                <div class="footer-inner" data-aos="zoom-out-up">
+                    <article>
+                        <img src="./img/logo.png" alt="Logo">
+                    </article>
+                        
+                    <article>
+                        <ul>
+                            <li><a href="#banner">Home</a></li>
+                            <li><a href="#collection">Collection</a></li>
+                            <li><a href="#">LookBook</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </article>
+                    
+                    <article>
+                        <ul>
+                            <li><a href="#">Store Location</a></li>
+                            <li><a href="#">Knowlange base</a></li>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="#">Business Login</a></li>
+                        </ul>
+                    </article>
+                        
+                    
+                    <article>
+                        <ul class="footer__socials">
+                            <li><a href="https://facebook.com"><i class="bx bxl-facebook"></i></a></li>
+                            <li><a href="https://twitter.com"><i class="bx bxl-twitter"></i></a></li>
+                            <li><a href="https://instagram.com"><i class="bx bxl-instagram"></i></a></li>
+                        </ul>
+                    </article>
+                    
+                </div>
+            </div>
+        </footer>
+
+        <div class="copyright" data-scene>
+            <div class="container" data-aos="zoom-out-up" data-aos-offset="0">
+                <p>&copy; 2023 YD Miami | All Rights Reserved</p>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+
+<!--- ROLLY JS ---->
+
+<script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
+<!--- AOS animate on scroll library JS--->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!---- Swiper JS ---->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+ <!-- MY JS-->
+ <script src="main.js"></script>
+  
+    
+</body>
+</html>

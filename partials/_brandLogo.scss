@@ -1,0 +1,28 @@
+.brand-logo{
+    padding: 30px 0;
+
+    .brand-logo-inner{
+        .item{
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 2%;
+            align-items: center;
+            img{
+                width: 100px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+
+    }
+    
+}
+
+/*---- MEDIA QUERIES (small devices) -----*/
+@media screen and (max-width: 660px) {
+    .brand-logo .brand-logo-inner .item{
+        grid-template-columns: repeat(3,1fr);
+        gap: 1rem;
+    }
+}
